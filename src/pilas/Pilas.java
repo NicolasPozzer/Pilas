@@ -22,7 +22,7 @@ public class Pilas {
         
         //recorrido por foreach porque tiene el ":"
         for(Integer pilita : pila){
-            System.out.println("pilita");
+            System.out.println(pilita);
         }
         
         //mostrar pila
@@ -30,7 +30,7 @@ public class Pilas {
         System.out.println("Pila vacia? "+ pila.isEmpty());
         
         pila.pop(); //eliminar el ultimo registro que entro
-        System.out.println("Esta el 3?" + pila.search(3));
+        System.out.println("Esta el 3? " + pila.search(3));
         System.out.println("Ultimo agregado: "+ pila.peek());
     }   
 }
